@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png);
+  text-align: center;
+  padding: 50px;
+  margin: 10px auto;
+}
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+input {
+  padding: 3px;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.buton {
+  color: black;
+  background-color: pink;
+  display: inline-block;
+  margin: 20px auto;
+  padding: 5px;
+  width: 80px;
+  border-radius: 15px;
+}
+
+.buton:hover {
+  cursor: pointer;
+  color: aquamarine;
+}
+form {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  border-radius: 10px;
+  padding: 30px;
+  display: inline-block;
+  margin: auto;
+}
